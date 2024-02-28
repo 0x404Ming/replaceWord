@@ -72,7 +72,7 @@ def process_directory(directory, replacements):
 
 if __name__ == "__main__":
     #设置要替换文档所在路径 替换所有在该路径下的word文档内容
-    a = r'C:\Users\Q\Desktop\全国妇联综合办公平台'
+    a = r'C:\Users\Q\Desktop\新建文件夹'
     directory_path = a
     setup_logging(directory_path)
     # 一个列表，包含需要替换的old_str和new_str的元组
